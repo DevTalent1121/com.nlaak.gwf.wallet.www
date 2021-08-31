@@ -1,2 +1,65 @@
-# com.nlaak.gwf.wallet.www
-GWFChain Official wallet forked from MyEtherWallet
+# GWFChain Wallet
+
+MyEtherWallet is a doorway to the Ethereum blockchain, allowing users to manage their own funds without a centralized platform. -*Stephen, #MEWForce*
+
+## Philosophy
+
+* **Empower the people**: Give people the ability to interact with the Ethereum blockchain easily, without having to run a full node.
+* **Make it easy & free**: Everyone should be able to create a wallet and send Ether & Tokens without additional cost.
+* **People are the Priority**: People are the most important & their experience trumps all else. If monetization worsens the experience, we don't do it. (e.g. ads)
+* **A learning experience, too**: We want to educate about Ethereum, security, privacy, the importance of controlling your own keys, how the blockchain works, and how Ethereum and blockchain technologies enable a better world.
+* **If it can be hacked, it will be hacked**: Never save, store, or transmit secret info, like passwords or keys.
+* **Offline / Client-Side**: User should be able to run locally and offline without issue.
+* **Private**: No tracking!!! No emails. No ads. No demographics. We don't even know how many wallets have been generated, let alone who / what / where you are.
+* **Open source & auditable**
+
+## MEW Around the Web
+
+* [Website: https://www.myetherwallet.com/](https://www.myetherwallet.com/)
+* MEW Wallet:
+  * [IOS App](https://apps.apple.com/us/app/mew-wallet-ethereum-and-defi/id1464614025)
+  * [Android App](https://play.google.com/store/apps/details?id=com.myetherwallet.mewwallet\&hl=en_US\&gl=US)
+* [EthVM Blockchain explorer](https://www.ethvm.com/)
+* [MEW CX: https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
+* [MEW Team](https://team.myetherwallet.com/)
+* [MEWtopia](https://www.mewtopia.com/)
+* [MEW Knowledgebase](https://kb.myetherwallet.com/)
+* [FB: https://www.facebook.com/MyEtherWallet/](https://www.facebook.com/MyEtherWallet/)
+* [Twitter: https://twitter.com/myetherwallet](https://twitter.com/myetherwallet)
+* [YouTube: https://www.youtube.com/channel/UCQU5QbObwmaHNEMsuX3uQKA](https://www.youtube.com/channel/UCQU5QbObwmaHNEMsuX3uQKA)
+* [Instagram: https://www.instagram.com/myetherwallet/](https://www.instagram.com/myetherwallet/)
+* [Vkontakte: https://vk.com/public190491855](https://vk.com/public190491855)
+* [Medium: https://medium.com/@myetherwallet](https://medium.com/@myetherwallet)
+* [Telegram: https://t.me/myetherwallet](https://t.me/myetherwallet)
+* [Github MEW Repo: https://github.com/MyEtherWallet/MyEtherWallet](https://github.com/MyEtherWallet/MyEtherWallet)
+* [Github MEW Org: https://github.com/MyEtherWallet](https://github.com/MyEtherWallet)
+* [Github Latest Releases: https://github.com/MyEtherWallet/MyEtherWallet/releases/latest](https://github.com/MyEtherWallet/MyEtherWallet/releases/latest)
+* MEW ETH Donation Address: 0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D (mewtopia.eth)
+* MEW BTC Donation Address: 1DECAF2uSpFTP4L1fAHR8GCLrPqdwdLse9
+
+## Bug / Feature Request
+
+If you find a bug, or want a new feature added, please submit it on the [Github Issues](https://github.com/MyEtherWallet/MyEtherWallet/issues)
+
+## Getting started
+
+1. Open terminal
+2. Clone the repo: `git clone git@github.com:MyEtherWallet/MyEtherWallet.git`
+3. run `npm ci` to install node packages.
+4. run `npm run build`. You can also use the offline version by opening the index file from the dist folder with your preferred browser
+5. start `npm start`
+6. If `npm start` fails and above the error message it states 'new update found' then the package.json version of the indicated packages needs to be updated to match the versions shown in the notice.
+7. App should be running in `https://localhost:8080`
+
+## Developers
+
+1. Open terminal
+2. Clone the repo: `git clone git@github.com:MyEtherWallet/MyEtherWallet.git`
+3. run `git checkout develop`
+4. run `npm ci` to install node packages.
+5. run `npm run build`. You can also use the offline version by opening the index file from the dist folder with your preferred browser
+6. start `npm run dev`
+7. App should be running in `https://localhost:8080`
+
+EACCESS issue can be resolved by running: `sudo chown -R $(whoami) ~/.npm`
+For other issues, try the steps shown here: <https://github.com/MyEtherWallet/MyEtherWallet/issues/1182#issuecomment-506342875> by @tomwalton78
